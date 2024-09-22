@@ -1,0 +1,47 @@
+{
+  "deploy_mode": "combined",
+  "deploy_user": "ctdba:ctdba",
+  "cluster_id": "0",
+  "cluster_name": "cluster123",
+  "remote_cluster_name": "cluster123",
+  "node_id": "0",
+  "cantian_vlan_ip": "10.77.77.100;10.77.77.101",
+  "storage_vlan_ip": "10.77.77.102",
+  "cms_ip": "192.168.86.1;192.168.86.2",
+  "storage_dbstore_fs": "foo",
+  "storage_dbstore_page_fs": "foo_page",
+  "storage_share_fs": "share",
+  "storage_archive_fs": "archive",
+  "storage_metadata_fs": "metadata",
+  "dbstore_fs_vstore_id": "0",
+  "cantian_in_container": "0",
+  "mysql_in_container": "1",
+  "archive_logic_ip": "10.77.78.2",
+  "metadata_logic_ip": "10.77.78.3",
+  "mes_type": "UC",
+  "mes_ssl_switch": true,
+  "link_type": "1",
+  "db_type": "0",
+  "deploy_policy": "default",
+  "kerberos_key": "krb5",
+  "mysql_metadata_in_cantian": true,
+  "MAX_ARCH_FILES_SIZE": "300G",
+  "ca_path": "/opt/certificate/ca.crt",
+  "crt_path": "/opt/certificate/mes.crt",
+  "key_path": "/opt/certificate/mes.key",
+  "dr_deploy": {
+    "active": {
+      "dm_ip": "",
+      "dm_user": "",
+      "esn": "",
+      "sync_speed": "medium"
+    },
+    "standby": {
+      "dm_ip": "",
+      "dm_user": "",
+      "esn": "",
+      "pool_id": "",
+      "dbstore_fs_vstore_id": ""
+    }
+  }
+}
